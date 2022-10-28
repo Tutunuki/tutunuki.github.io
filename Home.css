@@ -1,32 +1,43 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
+  min-height: 650px;
 }
 
 .u-section-1 .u-image-1 {
-  width: 570px;
-  height: 570px;
-  margin: 20px auto 60px;
+  width: 299px;
+  height: 299px;
+  margin: 26px auto 0;
 }
 
-@media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 470px;
-  }
+.u-section-1 .u-text-1 {
+  font-family: monogram;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 30px auto 0;
+}
 
-  .u-section-1 .u-image-1 {
-    width: 540px;
-    height: 540px;
-  }
+.u-section-1 .u-social-icons-1 {
+  height: 64px;
+  min-height: 16px;
+  width: 212px;
+  min-width: 68px;
+  margin: 107px auto 45px;
+}
+
+.u-section-1 .u-icon-1 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-3 {
+  height: 100%;
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 270px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 340px;
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 740px;
@@ -149,6 +160,74 @@
 
   .u-section-2 .u-layout-cell-3 {
     min-height: auto;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 600px;
+}
+
+.u-section-3 .u-video-1 {
+  height: 500px;
+  margin: 50px 0;
+}
+
+.u-section-3 .embed-responsive-1 {
+  position: absolute;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-video-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .embed-responsive-1 {
+    width: 178%;
+    left: -39%;
+    height: 178%;
+    top: -39%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 504px;
+  }
+
+  .u-section-3 .u-video-1 {
+    height: 404px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 5px;
+  }
+
+  .u-section-3 .u-video-1 {
+    height: 310px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 0;
+  }
+
+  .u-section-3 .u-video-1 {
+    height: 200px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-3 .embed-responsive-1 {
+    width: 261%;
+    left: -81%;
+    height: 100%;
+    top: 0%;
   }
 }@font-face {
   font-family: 'monogram';
