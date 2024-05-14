@@ -1,0 +1,31 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 160px;
+  height: 300px;
+  margin: 50px auto 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 397px;
+  height: 300px;
+  margin: 30px auto 60px;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 357px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 257px;
+  }
+}@font-face {
+  font-family: 'monogram';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/monogram.ttf);
+}
