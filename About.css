@@ -5,13 +5,8 @@
 .u-section-1 .u-text-1 {
   font-family: monogram;
   font-size: 6rem;
+  font-weight: 400;
   margin: 60px auto 0;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
-    font-weight: 400;
-  }
 }
 
 @media (max-width: 575px) {
