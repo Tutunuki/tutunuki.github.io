@@ -42967,17 +42967,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
+  font-weight: 400;
   font-family: monogram;
   font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 2rem;
   font-family: monogram;
 }
-
+@media (max-width: 1199px) {
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
+  }
+}
 
 
 
